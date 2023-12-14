@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!-- services -->
+    <bean id="artistService"
+          class="package com.test.musicstore.Service.Impl.ArtistServiceImpl">
+    </bean>
+    <bean id="albumService"
+          class="package com.test.musicstore.Service.Impl.AlbumServiceImpl">
+    </bean>
+    <bean id="salesService"
+          class="package com.test.musicstore.Service.Impl.SalesServiceImpl">
+    </bean>
+</beans>

@@ -1,0 +1,13 @@
+package com.test.musicstore.POJO.Request;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.util.UUID;
+
+@AllArgsConstructor
+@NoArgsConstructor
+@Data
+public class GetArtistRequest {
+    private UUID artistId;
+}
